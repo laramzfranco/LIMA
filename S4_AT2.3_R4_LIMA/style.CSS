@@ -1,0 +1,24 @@
+Table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+/* Bordas das células */
+th, td {
+    border: 1px solid #333333;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #101820;
+    color: #ffffff;
+}
+
+/* Efeito ao passar o mouse */
+tr:hover {
+    background-color: #f2f2f2;
+}
